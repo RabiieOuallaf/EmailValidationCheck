@@ -1,0 +1,61 @@
+body 
+{
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle , #4e4ee6,#00d4ff);
+}
+.container 
+{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+.Form 
+{
+    text-align: center;
+    height: 20vh;
+    margin-top: 11rem;
+}
+.Form > input
+{
+    
+    width: 15rem;
+    height: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 10px 2px rgb(69, 69, 69);
+}
+button
+{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+    margin: auto;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.Form > button:hover
+{
+    background-color: rgb(0, 99, 141);
+    color: white;
+    transition: 400ms background-color ease-in-out;
+}
+
+.Form > label 
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+ p 
+{
+    margin: auto;
+
+}
